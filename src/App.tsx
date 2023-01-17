@@ -1,4 +1,5 @@
 import { ThemeProvider } from 'styled-components'
+import { Transactions } from './pages/transactions'
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/default'
 
@@ -7,7 +8,7 @@ export function App() {
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
       
-      <h1>Besche Money</h1>
+      <Transactions />
     </ThemeProvider>
   )
 }
